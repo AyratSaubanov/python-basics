@@ -3,5 +3,5 @@ def assert_equal(a, b, msg = "{} must be equal to {}"):
 
 
 assert_equal(1,2)
-#assert_equal(1,2, "Assertion failed")
+assert_equal(1,2, "Assertion failed")
         
