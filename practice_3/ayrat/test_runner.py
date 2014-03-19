@@ -36,3 +36,10 @@ def passed_tests():
 
 def failed_tests():
     return [t.__name__ for t in failed_tests_list]
+
+
+def clear_state():
+    pending_tests_list = []
+    ran_tests_list = []
+    passed_tests_list = []
+    failed_tests_list = []

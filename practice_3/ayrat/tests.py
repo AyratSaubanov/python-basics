@@ -5,4 +5,7 @@ def one_is_equal_1_test():
     ayrat_assertions.assert_equal(1, 2)
 
 test_runner.add_test(one_is_equal_1_test)
+print(test_runner.pending_tests())
 print(test_runner.run())
+print(test_runner.clear_state())
+print(test_runner.pending_tests())
