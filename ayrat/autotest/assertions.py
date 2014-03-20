@@ -58,6 +58,7 @@ def assert_not_in(a,b):
     else:
         return True
 
+
 if __name__ == '__main__':
     result = False
     x, y = 1, 1
@@ -123,4 +124,4 @@ if __name__ == '__main__':
         print('\'assert_true({})\' result: {}'.format(x, result))
     print('_________________')
     
-
+    
