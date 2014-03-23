@@ -4,8 +4,8 @@ _passed_tests_list = []
 _failed_tests_list = []
 
 
-def add_test(fn):
-    _pending_tests_list.append(fn)
+def add_test(test):
+    _pending_tests_list.append(test)
 
 
 def pending_tests():
